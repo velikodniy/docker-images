@@ -5,3 +5,4 @@ ENV DIR /tex/
 WORKDIR $DIR
 
 RUN apk add --no-cache texlive-full make
+RUN apk add --no-cache ghostscript
